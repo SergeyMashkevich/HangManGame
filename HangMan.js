@@ -68,11 +68,13 @@ while ((remainingLetters > 0) && (lives !== 0)) {
         break
     } else if (guess.length !== 1) {
         alert('Please, enter one letter.')
+        lives++
     } else {
         guess = guess.toLowerCase()
         for (j = 0; j < word.length; j++) {
             if (answerArray[j] === guess) {
                 alert('You have already guess this letter... try again.')
+                lives++
                 break
             }
             if (word[j] === guess) {

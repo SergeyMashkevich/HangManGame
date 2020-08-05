@@ -91,7 +91,7 @@ while ((remainingLetters > 0) && (lives !== 0)) {
 }
 
 if (lives === 0) {
-    alert('Sory but you have spend all you lives.')
+    alert('Sorry but you have spend all you lives.')
 } else if (remainingLetters === 0) {
     if (confirm('Perfect! you guess: ' + '\'' + word + '\'.' + '\n' + 'If you want to play again press \'ok\'')) {
         document.location.reload()

@@ -46,7 +46,7 @@ if (confirm('Would you like to play with fewer chances to guess?' + '\n' + 'If y
 } else {
     var lives = 6
 }
-var words = ['frog', 'mobile', 'animal', 'bread', 'program', 'monkey', 'grandmother', 'butter', 'telephone','hypertextmarkuplanguage','earth','friend','submarine','language','airplane','computer','warrior']
+var words = ['management', 'environment', 'medicine', 'application', 'newspaper', 'revolution', 'championship', 'background', 'weather', 'hypertextmarkuplanguage', 'breakfast', 'evening', 'submarine', 'Sergeymashkevich', 'weekend', 'champion', 'warrior']
 var word = words[Math.floor(Math.random() * words.length)]
 var answerArray = []
 for (i = 0; i < word.length; i++) {

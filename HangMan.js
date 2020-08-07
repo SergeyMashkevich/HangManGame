@@ -1,43 +1,4 @@
-﻿//var name = prompt('What is you name?')
-//console.log('Hello, ' + name)
-
-//var likesCats = confirm("Тебе нравятся кошки?");
-//if (likesCats) {
-//    console.log("Ты классная кошка!");
-//} else {
-//    console.log("Что ж, не проблема. Все равно ты молодец!");
-//}
-
-//var words = ['program', 'monkey', 'beautiful', 'frog']
-//var word = words[Math.floor(Math.random() * words.length)]
-
-//var answerarray = []
-//for (i = 0; i < word.length; i++) {
-//    answerarray[i] = '_'
-//}
-//var remainingletters = word.length
-
-//while (remainingletters > 0) {
-//    alert(answerarray.join(' '))
-//    var guess = prompt('guess a letter or press cancel to leave the game.')
-//    if (guess === null) {
-//        break
-//    } else if (guess.length !== 1) {
-//        alert('please, enter just one character.')
-//    } else {
-//        for (j = 0; j < word.length; j++) {
-//            if (word[j] === guess) {
-//                answerarray[j] = guess
-//                remainingletters--
-//            }
-//        }
-
-//    }
-//}
-
-//alert(answerarray.join(' '))
-//alert('perfect you guess: ' + word)
-
+﻿
 //-----------------------------------------------------------
 
 alert('HANG-MAN GAME' + '\n' + 'My first \'game\' based on just: js code. ' + '\n' + 'Press \'ok\' to start.')
@@ -66,7 +27,7 @@ while ((remainingLetters > 0) && (lives !== 0)) {
             document.location.reload()
         }
         break
-    } else if (guess.length !== 1) {
+    } else if (guess.length !== 1 && guess === '0', '1', '2', '3', '4', '5', '6', '7', '8', '9') {
         alert('Please, enter one letter.')
         lives++
     } else {
@@ -103,5 +64,6 @@ if (lives === 0) {
 }
 
 //alert(answerArray.join(' '))
+
 
 

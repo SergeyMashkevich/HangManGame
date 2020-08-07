@@ -5,7 +5,7 @@ alert('HANG-MAN GAME' + '\n' + 'My first \'game\' based on just: js code. ' + '\
 if (confirm('Would you like to play with fewer chances to guess?' + '\n' + 'If you accept it click \'ok\'')) {
     var lives = 4
 } else {
-    var lives = 6
+    var lives = 8
 }
 var words = ['management', 'environment', 'medicine', 'application', 'newspaper', 'revolution', 'championship', 'background', 'weather', 'hypertextmarkuplanguage', 'breakfast', 'evening', 'submarine', 'Sergeymashkevich', 'weekend', 'champion', 'warrior']
 var word = words[Math.floor(Math.random() * words.length)]

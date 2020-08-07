@@ -20,7 +20,6 @@ var newRemainigLetters = remainingLetters
 
 while ((remainingLetters > 0) && (lives !== 0)) {
     alert('lives: ' + lives + '\n' + answerArray.join(' ') + '\n' + remainingLetters + ' letters to go')
-    //alert(answerArray.join(' '))
     var guess = prompt('Guess a letter or press cancel to quit the game.')
     if (guess === null) {
         if (confirm('Maybe you want to try again...')) {
@@ -28,9 +27,6 @@ while ((remainingLetters > 0) && (lives !== 0)) {
         }
         break
     } else if (guess.length !== 1) {
-        alert('Please, enter one letter.')
-        lives++
-    } else if (guess === '0', '1', '2', '3', '4', '5', '6', '7', '8', '9') {
         alert('Please, enter one letter.')
         lives++
     } else {

@@ -30,7 +30,7 @@ while ((remainingLetters > 0) && (lives !== 0)) {
     } else if (guess.length !== 1) {
         alert('Please, enter one letter.')
         lives++
-    } else if (guess === guess === '0', '1', '2', '3', '4', '5', '6', '7', '8', '9') {
+    } else if (guess === '0', '1', '2', '3', '4', '5', '6', '7', '8', '9') {
         alert('Please, enter one letter.')
         lives++
     } else {

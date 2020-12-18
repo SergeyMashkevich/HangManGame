@@ -45,9 +45,9 @@
 
 alert('HANG-MAN GAME' + '\n' + 'My first \'game\' based on just: js code. ' + '\n' + 'Press \'ok\' to start.')
 if (confirm('Would you like to play with fewer chances to guess?' + '\n' + 'If you accept it click \'ok\'')) {
-    var lives = 4
-} else {
     var lives = 8
+} else {
+    var lives = 16
 }
 var words = [
     "ability", "able", "aboard", "about", "above", "accept", "accident", "according",

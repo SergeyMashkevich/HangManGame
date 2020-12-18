@@ -53,7 +53,7 @@ while ((remainingLetters > 0) && (lives !== 0)) {
 }
 
 if (lives === 0) {
-    alert('Sorry, but you have spend all you lives. ' + 'The secret word was:' + '\'' + word + '\'')
+    alert('Sorry, but you have spend all you lives. ' + '\n' + 'The secret word was: ' + '\'' + word + '\'.')
 } else if (remainingLetters === 0) {
     if (confirm('Perfect! you guess: ' + '\'' + word + '\'.' + '\n' + 'If you want to play again press \'ok\'')) {
         document.location.reload()

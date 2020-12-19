@@ -298,7 +298,12 @@ var words = [
 var word = words[Math.floor(Math.random() * words.length)]
 var answerArray = []
 for (i = 0; i < word.length; i++) {
-    answerArray[i] = '_'
+    if (word[i] != ' ') {
+        answerArray[i] = '_';
+    }
+    else {
+        answerArray[i] = ' ';
+    }
 }
 
 var remainingLetters = word.length
